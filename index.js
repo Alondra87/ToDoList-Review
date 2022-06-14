@@ -1,6 +1,6 @@
-import LoadToDoList from './modules/LoadToDoListTask.js';
-import AddTaskToList from './modules/AddTask.js';
-import CheckBoxesChecked from './modules/checkBox.js';
+import LoadToDoList from './module/LoadToDoListTask.js';
+import AddTaskToList from './module/AddTask.js';
+import CheckBoxesChecked from './module/checkBox.js';
 
 LoadToDoList();
 
