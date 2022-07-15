@@ -59,7 +59,7 @@ document.addEventListener('click', (event) => {
   }
 });
 
-document.addEventListener('change', (event) => {
+document.addEventListener('event', (event) => {
   if (event.target.classList.contains('task')) {
     const list = JSON.parse(localStorage.getItem('mytodoList'));
     list[event.target.parentNode.firstElementChild.id - 1].task = event.target.value;
