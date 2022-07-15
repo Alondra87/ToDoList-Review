@@ -1,8 +1,8 @@
 /* Variables */
 :root {
   /* Color Palette */
-  --color-mint: #56cc9d;
-  --color-clear: #f3969a;
+  --color-mint: #acb3b0;
+  --color-clear: #2fa7df;
   --color-grey-light-1: #eceeef;
   --color-grey-dark-1: #888;
   --color-grey-dark-2: #343a40;
@@ -26,7 +26,7 @@ body {
   background-color: var(--color-grey-light-1);
   font-size: 1.5rem;
   color: var(--color-grey-dark-2);
-  font-family: 'Open Sans', 'Lucida Grande', tahoma, verdana, arial, sans-serif;
+  font-family: "Open Sans", "Lucida Grande", tahoma, verdana, arial, sans-serif;
 }
 
 ul {
@@ -141,7 +141,9 @@ i {
 }
 
 @keyframes edited {
-  0% { background-color: var(--color-grey-dark-1); }
+  0% {
+    background-color: var(--color-grey-dark-1);
+  }
 }
 
 .newbackg {
